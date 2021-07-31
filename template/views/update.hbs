@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>UPDATE</title>
+    <link rel="icon" href="/img/Todo.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="container">
+           
+              <form id={{id}}>
+               
+                  <div class="row">
+                    <div class="col-25">
+                        <label for="status">COMPLETED</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="status" name="completed">
+                            <option value="YET TO START">YET TO START</option>
+                            <option value="IN PROGRESS">IN PROGRESS</option>
+                            <option value="COMPLETED">COMPLETED</option>
+                        </select>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col-25">
+                        <label for="eDate">END DATE</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="eDate" name="endDate" placeholder="endDate">
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="center" type="submit" value="Submit" >submit</button>
+                    
+                    {{!-- <input class="center" type="submit" value="Submit"> --}}
+                </div>
+           
+            </form>
+        </div>
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/update.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#sign-in{
+  height: 550px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2.2% 0 0 33% ;
+  
+}
+h3{
+  text-align: center;
+  padding-top: 10px;
+}
+input[type=text], select {
+ 
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label {
+ 
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+}
+input[type=submit] {
+  width: 40%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: white;
+  padding: 14px 20px;
+  margin: 10% 30%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#checkUser{
+  margin: 10% 3%;
+
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
