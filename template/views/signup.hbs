@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>LOGIN</title>
+  <title>SIGNUP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/img/Todo.jpg">
   <link rel="stylesheet" href="/css/styles.css">
@@ -12,21 +12,21 @@
 <body>
   <div id="container">
     <div id="sign-in">
-      <h3>LOGIN</h3>
+      <h3>CREATE ACCOUNT</h3>
       <form>
-        <label for="email">Email Id
+        <label for="username">Username
+          <i class='fas fa-portrait'></i>
+        </label>
+        <input type="text" id="email" name="email" placeholder="Type EmailId.">
+         <label for="email">Email
           <i class='fa fa-envelope'></i>
         </label>
-        <input type="text" id="email" name="email" placeholder="Type email address.">
+        <input type="text" id="username" name="username" placeholder="Type username.">
         <label for="pass">Password
           <i class='fas fa-user-lock'></i>
         </label>
         <input type="text" id="pass" name="pass" placeholder="Type your password..">
-
-        <div id="checkUser">New User?
-          <a href="/signup">Create an account</a>
-        </div>
-        <input type="submit" value="LOGIN">
+        <input type="submit" value="SIGNUP">
       </form>
     </div>
   </div>

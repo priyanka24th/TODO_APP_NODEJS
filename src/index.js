@@ -24,5 +24,8 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.render('login',headerDict )
     });
+app.get('/signup', (req, res) => {
+    res.render('signup', headerDict)
+});
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
