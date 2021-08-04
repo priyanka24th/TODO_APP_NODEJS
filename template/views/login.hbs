@@ -10,25 +10,28 @@
 </head>
 
 <body>
-  <div id="container">
-    <div id="sign-in">
+  <div class="modal">
+    
+    <form class="modal-content">
+        
+    <div class="sign-in">
       <h3>LOGIN</h3>
-      <form>
         <label for="email">Email Id
-          <i class='fa fa-envelope'></i>
         </label>
-        <input type="text" id="email" name="email" placeholder="Type email address.">
+        <i class='fa fa-envelope'></i>
+        <input type="text" id="email" name="email" placeholder="Type email Id .">
         <label for="pass">Password
-          <i class='fas fa-user-lock'></i>
         </label>
+         <i class='fas fa-user-lock'></i>
         <input type="text" id="pass" name="pass" placeholder="Type your password..">
 
         <div id="checkUser">New User?
           <a href="/signup">Create an account</a>
         </div>
-        <input type="submit" value="LOGIN">
-      </form>
+        <input type="submit" value="LOGIN" class="buttext">
+     
     </div>
+  </form>
   </div>
 </body>
 

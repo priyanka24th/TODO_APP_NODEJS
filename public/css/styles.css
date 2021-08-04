@@ -1,55 +1,97 @@
-*{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-body{
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
-#sign-in{
-  height: 550px;
-  max-width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  margin: 2.2% 0 0 33% ;
+* {box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;}
+  body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  h3{
+    text-align: center;
+    padding-top: 10px;
+  }
+  input[type=submit] {
+    width: 30%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    margin-left: 32%;
+    border: none;
+     padding: 14px 20px;
+     border-radius: 6px;
+    cursor: pointer;
+  }
+  #checkUser{
+    margin: 10% 3%;
   
-}
-h3{
-  text-align: center;
-  padding-top: 10px;
-}
-input[type=text], select {
- 
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 8px;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  border: none;
+  background: #f1f1f1;
 }
-label {
- 
-  width: 95%;
-  padding: 12px 20px;
-  margin: 8px 8px;
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
-input[type=submit] {
-  width: 40%;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
-  margin: 10% 30%;
+  margin: 8px 0;
   border: none;
-  border-radius: 6px;
   cursor: pointer;
-}
-#checkUser{
-  margin: 10% 3%;
-
-}
-input[type=submit]:hover {
-  background-color: #45a049;
+  width: 100%;
+  opacity: 0.9;
 }
 
+button:hover {
+  opacity:1;
+}
 
+
+
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+.sign-in{
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  
+}
+.buttext{
+  font-size: 1vw;
+}
